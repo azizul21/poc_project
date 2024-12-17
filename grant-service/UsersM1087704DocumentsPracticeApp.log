@@ -1,0 +1,188 @@
+2024-12-16T14:15:47.045+05:30  INFO 8244 --- [grant-service] [main] c.p.g.GrantServiceApplication            : Starting GrantServiceApplication using Java 21.0.3 with PID 8244 (C:\Users\M1087704\Documents\Practice\grant-service\target\classes started by 61087704 in C:\Users\M1087704\Documents\Practice\grant-service)
+2024-12-16T14:15:47.050+05:30  INFO 8244 --- [grant-service] [main] c.p.g.GrantServiceApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-16T14:15:48.103+05:30  INFO 8244 --- [grant-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=aa9c2ac8-99b0-302c-8776-36670caaba17
+2024-12-16T14:15:48.495+05:30  INFO 8244 --- [grant-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-12-16T14:15:48.510+05:30  INFO 8244 --- [grant-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-16T14:15:48.511+05:30  INFO 8244 --- [grant-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-16T14:15:48.589+05:30  INFO 8244 --- [grant-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-16T14:15:48.589+05:30  INFO 8244 --- [grant-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1465 ms
+2024-12-16T14:15:49.347+05:30  INFO 8244 --- [grant-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-12-16T14:15:49.386+05:30  WARN 8244 --- [grant-service] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compositeCompatibilityVerifier' defined in class path resource [org/springframework/cloud/configuration/CompatibilityVerifierAutoConfiguration.class]: Failed to instantiate [org.springframework.cloud.configuration.CompositeCompatibilityVerifier]: Factory method 'compositeCompatibilityVerifier' threw exception with message: Spring Cloud/ Spring Boot version compatibility checks have failed: [[VerificationResult@7db40fd5 description = 'Spring Cloud Sleuth is not compatible with this Spring Cloud release train', action = 'Migrate from Spring Cloud Sleuth to Micrometer Tracing .
+You can check the Sleuth 3.1 Migration Guide over here [https://github.com/micrometer-metrics/tracing/wiki/Spring-Cloud-Sleuth-3.1-Migration-Guide]. 
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]']]
+2024-12-16T14:15:49.394+05:30  INFO 8244 --- [grant-service] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-12-16T14:15:49.412+05:30  INFO 8244 --- [grant-service] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-16T14:15:49.441+05:30 ERROR 8244 --- [grant-service] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Cloud Sleuth is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Migrate from Spring Cloud Sleuth to Micrometer Tracing .
+You can check the Sleuth 3.1 Migration Guide over here [https://github.com/micrometer-metrics/tracing/wiki/Spring-Cloud-Sleuth-3.1-Migration-Guide]. 
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2024-12-16T14:16:22.828+05:30  INFO 2056 --- [grant-service] [main] c.p.g.GrantServiceApplication            : Starting GrantServiceApplication using Java 21.0.3 with PID 2056 (C:\Users\M1087704\Documents\Practice\grant-service\target\classes started by 61087704 in C:\Users\M1087704\Documents\Practice\grant-service)
+2024-12-16T14:16:22.832+05:30  INFO 2056 --- [grant-service] [main] c.p.g.GrantServiceApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-16T14:16:23.888+05:30  INFO 2056 --- [grant-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=aa9c2ac8-99b0-302c-8776-36670caaba17
+2024-12-16T14:16:24.270+05:30  INFO 2056 --- [grant-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-12-16T14:16:24.285+05:30  INFO 2056 --- [grant-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-16T14:16:24.285+05:30  INFO 2056 --- [grant-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-16T14:16:24.364+05:30  INFO 2056 --- [grant-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-16T14:16:24.365+05:30  INFO 2056 --- [grant-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1465 ms
+2024-12-16T14:16:25.104+05:30  INFO 2056 --- [grant-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-12-16T14:16:25.147+05:30  WARN 2056 --- [grant-service] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compositeCompatibilityVerifier' defined in class path resource [org/springframework/cloud/configuration/CompatibilityVerifierAutoConfiguration.class]: Failed to instantiate [org.springframework.cloud.configuration.CompositeCompatibilityVerifier]: Factory method 'compositeCompatibilityVerifier' threw exception with message: Spring Cloud/ Spring Boot version compatibility checks have failed: [[VerificationResult@3830f918 description = 'Spring Cloud Sleuth is not compatible with this Spring Cloud release train', action = 'Migrate from Spring Cloud Sleuth to Micrometer Tracing .
+You can check the Sleuth 3.1 Migration Guide over here [https://github.com/micrometer-metrics/tracing/wiki/Spring-Cloud-Sleuth-3.1-Migration-Guide]. 
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]']]
+2024-12-16T14:16:25.151+05:30  INFO 2056 --- [grant-service] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-12-16T14:16:25.169+05:30  INFO 2056 --- [grant-service] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-16T14:16:25.193+05:30 ERROR 2056 --- [grant-service] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Cloud Sleuth is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Migrate from Spring Cloud Sleuth to Micrometer Tracing .
+You can check the Sleuth 3.1 Migration Guide over here [https://github.com/micrometer-metrics/tracing/wiki/Spring-Cloud-Sleuth-3.1-Migration-Guide]. 
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2024-12-16T14:16:54.436+05:30  INFO 20008 --- [grant-service] [main] c.p.g.GrantServiceApplication            : Starting GrantServiceApplication using Java 21.0.3 with PID 20008 (C:\Users\M1087704\Documents\Practice\grant-service\target\classes started by 61087704 in C:\Users\M1087704\Documents\Practice\grant-service)
+2024-12-16T14:16:54.440+05:30  INFO 20008 --- [grant-service] [main] c.p.g.GrantServiceApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-16T14:16:55.545+05:30  INFO 20008 --- [grant-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=79aac1c9-b961-346d-8a23-d43b39dde01b
+2024-12-16T14:16:55.905+05:30  INFO 20008 --- [grant-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-12-16T14:16:55.923+05:30  INFO 20008 --- [grant-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-16T14:16:55.923+05:30  INFO 20008 --- [grant-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-16T14:16:56.012+05:30  INFO 20008 --- [grant-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-16T14:16:56.013+05:30  INFO 20008 --- [grant-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1507 ms
+2024-12-16T14:16:56.741+05:30  INFO 20008 --- [grant-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-12-16T14:16:56.784+05:30  WARN 20008 --- [grant-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-16T14:16:56.820+05:30  INFO 20008 --- [grant-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-12-16T14:16:56.859+05:30  INFO 20008 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-12-16T14:16:56.865+05:30  INFO 20008 --- [grant-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T14:16:56.881+05:30  INFO 20008 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-16T14:16:56.882+05:30  INFO 20008 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-16T14:16:56.882+05:30  INFO 20008 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-16T14:16:56.882+05:30  INFO 20008 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-16T14:16:56.882+05:30  INFO 20008 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-16T14:16:56.882+05:30  INFO 20008 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-12-16T14:16:56.882+05:30  INFO 20008 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-16T14:16:57.521+05:30  INFO 20008 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-12-16T14:16:57.523+05:30  INFO 20008 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-12-16T14:16:57.527+05:30  INFO 20008 --- [grant-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-12-16T14:16:57.529+05:30  INFO 20008 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1734338817529 with initial instances count: 0
+2024-12-16T14:16:57.533+05:30  INFO 20008 --- [grant-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GRANT-SERVICE with eureka with status UP
+2024-12-16T14:16:57.534+05:30  INFO 20008 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1734338817534, current=UP, previous=STARTING]
+2024-12-16T14:16:57.538+05:30  INFO 20008 --- [grant-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GRANT-SERVICE/10.238.133.64:grant-service:9001: registering service...
+2024-12-16T14:16:57.566+05:30  INFO 20008 --- [grant-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2024-12-16T14:16:57.567+05:30  INFO 20008 --- [grant-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9001
+2024-12-16T14:16:57.594+05:30  INFO 20008 --- [grant-service] [main] c.p.g.GrantServiceApplication            : Started GrantServiceApplication in 3.87 seconds (process running for 4.643)
+2024-12-16T14:16:57.698+05:30  INFO 20008 --- [grant-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GRANT-SERVICE/10.238.133.64:grant-service:9001 - registration status: 204
+2024-12-16T14:17:27.538+05:30  INFO 20008 --- [grant-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-16T14:17:27.539+05:30  INFO 20008 --- [grant-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-16T14:17:27.539+05:30  INFO 20008 --- [grant-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-16T14:17:27.539+05:30  INFO 20008 --- [grant-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-16T14:17:27.539+05:30  INFO 20008 --- [grant-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-16T14:17:27.539+05:30  INFO 20008 --- [grant-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2024-12-16T14:17:27.539+05:30  INFO 20008 --- [grant-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-16T14:17:27.586+05:30  INFO 20008 --- [grant-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-12-16T14:18:20.539+05:30  INFO 20008 --- [grant-service] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16T14:18:20.539+05:30  INFO 20008 --- [grant-service] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-16T14:18:20.540+05:30  INFO 20008 --- [grant-service] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-16T14:18:20.580+05:30  INFO 20008 --- [grant-service] [http-nio-9001-exec-1] c.p.grant_service.service.GrantService   : getGrantListOfParticipant Method::
+2024-12-16T14:18:20.648+05:30  INFO 20008 --- [grant-service] [http-nio-9001-exec-2] c.p.grant_service.service.GrantService   : getGrantListOfParticipant Method::
+2024-12-16T14:18:20.653+05:30  INFO 20008 --- [grant-service] [http-nio-9001-exec-3] c.p.grant_service.service.GrantService   : getGrantListOfParticipant Method::
+2024-12-16T14:21:56.895+05:30  INFO 20008 --- [grant-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T14:23:54.826+05:30  INFO 20008 --- [grant-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GRANT-SERVICE with eureka with status DOWN
+2024-12-16T14:23:54.826+05:30  INFO 20008 --- [grant-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1734339234826, current=DOWN, previous=UP]
+2024-12-16T14:23:54.827+05:30  INFO 20008 --- [grant-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GRANT-SERVICE/10.238.133.64:grant-service:9001: registering service...
+2024-12-16T14:23:54.830+05:30  INFO 20008 --- [grant-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-16T14:23:54.852+05:30  INFO 20008 --- [grant-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GRANT-SERVICE/10.238.133.64:grant-service:9001 - registration status: 204
+2024-12-16T14:23:54.852+05:30  INFO 20008 --- [grant-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-16T14:23:54.861+05:30  INFO 20008 --- [grant-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-12-16T14:23:57.873+05:30  INFO 20008 --- [grant-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-12-16T14:23:57.892+05:30  INFO 20008 --- [grant-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GRANT-SERVICE/10.238.133.64:grant-service:9001 - deregister  status: 200
+2024-12-16T14:23:57.893+05:30  INFO 20008 --- [grant-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-12-16T14:24:23.751+05:30  INFO 21128 --- [grant-service] [main] c.p.g.GrantServiceApplication            : Starting GrantServiceApplication using Java 21.0.3 with PID 21128 (C:\Users\M1087704\Documents\Practice\grant-service\target\classes started by 61087704 in C:\Users\M1087704\Documents\Practice\grant-service)
+2024-12-16T14:24:23.757+05:30  INFO 21128 --- [grant-service] [main] c.p.g.GrantServiceApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-16T14:24:25.645+05:30  INFO 21128 --- [grant-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=79aac1c9-b961-346d-8a23-d43b39dde01b
+2024-12-16T14:24:26.282+05:30  INFO 21128 --- [grant-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-12-16T14:24:26.311+05:30  INFO 21128 --- [grant-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-16T14:24:26.312+05:30  INFO 21128 --- [grant-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-16T14:24:26.464+05:30  INFO 21128 --- [grant-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-16T14:24:26.465+05:30  INFO 21128 --- [grant-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2622 ms
+2024-12-16T14:24:27.466+05:30  INFO 21128 --- [grant-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-12-16T14:24:27.504+05:30  WARN 21128 --- [grant-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-16T14:24:27.538+05:30  INFO 21128 --- [grant-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-12-16T14:24:27.574+05:30  INFO 21128 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-12-16T14:24:27.579+05:30  INFO 21128 --- [grant-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T14:24:27.590+05:30  INFO 21128 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-16T14:24:27.590+05:30  INFO 21128 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-16T14:24:27.590+05:30  INFO 21128 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-16T14:24:27.590+05:30  INFO 21128 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-16T14:24:27.590+05:30  INFO 21128 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-16T14:24:27.590+05:30  INFO 21128 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-12-16T14:24:27.590+05:30  INFO 21128 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-16T14:24:28.073+05:30  INFO 21128 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-12-16T14:24:28.075+05:30  INFO 21128 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-12-16T14:24:28.078+05:30  INFO 21128 --- [grant-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-12-16T14:24:28.081+05:30  INFO 21128 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1734339268079 with initial instances count: 0
+2024-12-16T14:24:28.085+05:30  INFO 21128 --- [grant-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GRANT-SERVICE with eureka with status UP
+2024-12-16T14:24:28.086+05:30  INFO 21128 --- [grant-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1734339268086, current=UP, previous=STARTING]
+2024-12-16T14:24:28.089+05:30  INFO 21128 --- [grant-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GRANT-SERVICE/10.238.133.64:grant-service:9001: registering service...
+2024-12-16T14:24:28.115+05:30  INFO 21128 --- [grant-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2024-12-16T14:24:28.117+05:30  INFO 21128 --- [grant-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9001
+2024-12-16T14:24:28.141+05:30  INFO 21128 --- [grant-service] [main] c.p.g.GrantServiceApplication            : Started GrantServiceApplication in 5.435 seconds (process running for 6.301)
+2024-12-16T14:24:28.143+05:30  INFO 21128 --- [grant-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GRANT-SERVICE/10.238.133.64:grant-service:9001 - registration status: 204
+2024-12-16T14:24:58.082+05:30  INFO 21128 --- [grant-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-16T14:24:58.082+05:30  INFO 21128 --- [grant-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-16T14:24:58.082+05:30  INFO 21128 --- [grant-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-16T14:24:58.083+05:30  INFO 21128 --- [grant-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-16T14:24:58.083+05:30  INFO 21128 --- [grant-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-16T14:24:58.083+05:30  INFO 21128 --- [grant-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2024-12-16T14:24:58.084+05:30  INFO 21128 --- [grant-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-16T14:24:58.123+05:30  INFO 21128 --- [grant-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-12-16T14:25:12.129+05:30  INFO 21128 --- [grant-service] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16T14:25:12.130+05:30  INFO 21128 --- [grant-service] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-16T14:25:12.134+05:30  INFO 21128 --- [grant-service] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-16T14:25:12.245+05:30  INFO 21128 --- [grant-service] [http-nio-9001-exec-1] c.p.grant_service.service.GrantService   : getGrantListOfParticipant Method::
+2024-12-16T14:25:12.424+05:30  INFO 21128 --- [grant-service] [http-nio-9001-exec-3] c.p.grant_service.service.GrantService   : getGrantListOfParticipant Method::
+2024-12-16T14:25:12.437+05:30  INFO 21128 --- [grant-service] [http-nio-9001-exec-2] c.p.grant_service.service.GrantService   : getGrantListOfParticipant Method::
+2024-12-16T14:26:26.595+05:30  INFO 21128 --- [grant-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GRANT-SERVICE with eureka with status DOWN
+2024-12-16T14:26:26.595+05:30  INFO 21128 --- [grant-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1734339386595, current=DOWN, previous=UP]
+2024-12-16T14:26:26.595+05:30  INFO 21128 --- [grant-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GRANT-SERVICE/10.238.133.64:grant-service:9001: registering service...
+2024-12-16T14:26:26.598+05:30  INFO 21128 --- [grant-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-16T14:26:26.616+05:30  INFO 21128 --- [grant-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GRANT-SERVICE/10.238.133.64:grant-service:9001 - registration status: 204
+2024-12-16T14:26:26.617+05:30  INFO 21128 --- [grant-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-16T14:26:26.622+05:30  INFO 21128 --- [grant-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-12-16T14:26:29.625+05:30  WARN 21128 --- [grant-service] [DiscoveryClient-%d] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2024-12-16T14:26:29.625+05:30  INFO 21128 --- [grant-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-12-16T14:26:29.630+05:30  INFO 21128 --- [grant-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GRANT-SERVICE/10.238.133.64:grant-service:9001 - deregister  status: 200
+2024-12-16T14:26:29.631+05:30  INFO 21128 --- [grant-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
