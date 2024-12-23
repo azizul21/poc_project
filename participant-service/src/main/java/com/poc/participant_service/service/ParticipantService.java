@@ -50,6 +50,7 @@ public class ParticipantService {
         return webClient.get()
                 .uri("http://grant-service/grants/"+id)
                 .retrieve()
-                .bodyToFlux(Grant.class).toStream().collect(Collectors.toList());
+                .bodyToFlux(Grant.class)
+                .toStream().collect(Collectors.toList());
     }
 }

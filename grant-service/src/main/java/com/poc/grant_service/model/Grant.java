@@ -6,6 +6,7 @@ public class Grant {
     private int grantId;
     private int option_granted;
     private int option_exercised;
+    private String haveVestGrants;
 
     public Grant(long partId, int grantId, int option_granted, int option_exercised) {
         this.partId = partId;
@@ -44,5 +45,13 @@ public class Grant {
 
     public void setOption_exercised(int option_exercised) {
         this.option_exercised = option_exercised;
+    }
+
+    public String getHaveVestGrants() {
+        return haveVestGrants;
+    }
+
+    public void setHaveVestGrants(String haveVestGrants) {
+        this.haveVestGrants = haveVestGrants;
     }
 }

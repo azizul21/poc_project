@@ -6,3 +6,10 @@ spring:
         uri: lb://participant-service
         predicates:
         - Path=/participant/**
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+
+server:
+  port: 9005

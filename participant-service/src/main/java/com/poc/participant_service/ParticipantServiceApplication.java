@@ -1,5 +1,6 @@
 package com.poc.participant_service;
 
+import brave.sampler.Sampler;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
@@ -19,6 +20,11 @@ public class ParticipantServiceApplication {
 		@LoadBalanced
 		public WebClient.Builder webClientBuilder() {
 			return WebClient.builder();
+		}
+
+		@Bean
+		public Sampler getSampler(){
+			return Sampler.ALWAYS_SAMPLE;
 		}
 
 		/*@Bean
