@@ -28,7 +28,7 @@ public class UserService {
     @Cacheable(value = "user",key = "#Id")
     public User getUserById(Long Id){
         Optional<User> user =  this.userInterface.findById(Id);
-        return user.orElse(new User());
+        return user.orElse(new User(10L,"Sana","India",25));
     }
 
 
@@ -50,6 +50,7 @@ public class UserService {
     @CachePut(value = "user",key = "#user.userId")
     public User updateUserById(User user){
         User user1 = this.getUserById(user.getUserId());
+        user1.setUserId(user.getUserId());
         user1.setName(user.getName());
         user1.setUserCountry(user.getUserCountry());
         user1.setUserAge(user.getUserAge());

@@ -1,11 +1,13 @@
 package com.operation.cache.crud_cache.entity;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
 
 import java.io.Serializable;
 
 @Entity
 @Table(name = "USER_TABLE")
+@Schema(name = "UserDTO")
 public class User implements Serializable {
 
     @Id
@@ -50,6 +52,13 @@ public class User implements Serializable {
     }
 
     public void setUserAge(int userAge) {
+        this.userAge = userAge;
+    }
+
+    public User(Long userId, String name, String userCountry, int userAge) {
+        this.userId = userId;
+        this.name = name;
+        this.userCountry = userCountry;
         this.userAge = userAge;
     }
 }
